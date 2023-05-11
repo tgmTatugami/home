@@ -1,0 +1,6 @@
+# authenticate(Basic)
+AuthUserFile /manga/.htpasswd
+AuthGroupFile /dev/null
+AuthName "パスワードを入力"
+AuthType Basic
+require valid-user
